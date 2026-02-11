@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Collapsible Sidebar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+
+  <div class="sidebar" id="sidebar">
+    <div class="logo">
+      <span class="logo-text">MyApp</span>
+      <button id="toggleBtn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <ul class="menu">
+      <li><i class="fas fa-house"></i><span>Home</span></li>
+      <li><i class="fas fa-user"></i><span>Profile</span></li>
+      <li><i class="fas fa-gear"></i><span>Settings</span></li>
+      <li><i class="fas fa-right-from-bracket"></i><span>Logout</span></li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <h1>Main Content</h1>
+    <p>Click the sidebar toggle 👈</p>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
